@@ -1,0 +1,103 @@
+* {
+  background-color: #FFFFFF;
+  box-sizing: border-box;
+  color: #222222;
+  font-family: 'Roboto';
+  font-size: 16px;
+}
+
+/* Header Universal Description */
+.header {
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+}
+
+/* Footer Universal Description */
+.footer {
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+  top: 90%;
+  right: 10%;
+  position: absolute;
+}
+
+/* Body Universal Description */
+body {
+  margin: 0;
+}
+
+/* Portfolio Elements (L/C/R) */
+.portfolio {
+  overflow: hidden;
+  position: relative;
+  height: 100vh;
+}
+
+.portfolio-page {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  }
+  .portfolio-page.active {
+    transform: translate3d(0, 0, 0);
+  }
+  .portfolio-left {
+    position: absolute;
+    top: 10%;
+    left: 10%;
+    width: 23.3%;
+    height: 100vh;
+    text-align:center;
+    transform: translate3d(0, 100%, 0);
+  }
+
+  .portfolio-center {
+    position: absolute;
+    top: 10%;
+    left: 38.3%;
+    width: 23.3%;
+    height: 100vh;
+    text-align:center;
+    transform: translate3d(0, 100%, 0);
+  }
+
+  .portfolio-right {
+    position: absolute;
+    top: 10%;
+    left: 66.6%;
+    width: 23.3%;
+    height: 100vh;
+    text-align:center;
+    transform: translate3d(0, 100%, 0);
+  }
+/* Single Static Elements */
+#logo {
+  background: none;
+  border: 0;
+  cursor: default;
+  float:left;
+  font-size: 12px;
+  outline: 0;
+  padding: 1%;
+}
+
+#about {
+  background: none;
+  border: 0;
+  cursor: default;
+  float:right;
+  font-size: 12px;
+  outline: 0;
+  padding: 1%;
+}
+
+#scroll {
+  background: none;
+  border: 0;
+  cursor: default;
+  float: right;
+  font-size: 12px;
+  outline: 0;
+  padding: 1%;
+}
